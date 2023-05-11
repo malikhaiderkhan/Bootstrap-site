@@ -1,0 +1,26 @@
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #172B4D;
+}
+header {
+  font-size: 20px;
+  background-image: url('../images/header-llustration-desktop.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) { 
+  .menu-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) { 
+  .menu-desktop {
+      display: none;
+  }
+}
